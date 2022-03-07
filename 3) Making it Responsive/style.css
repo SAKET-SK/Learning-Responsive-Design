@@ -139,4 +139,11 @@ footer li a:hover {
     blockquote cite {
         font-size: 14px;
     }
-}  
+    footer {
+        padding: 30px 0 10px 0;
+    }
+    footer li {
+        display: block;
+        margin: 5px 0;
+    }
+} 
