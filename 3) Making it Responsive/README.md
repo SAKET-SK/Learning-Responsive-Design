@@ -104,3 +104,6 @@ To use flexbox, we first define a container and set its display property to flex
 ```
 This will make all child elements have the same width (flex: 1) and fill the entire container width.
 
+The display:block; style makes the list items block level elements so they take the entire width of their container. This makes the items align under each other:
+
+
