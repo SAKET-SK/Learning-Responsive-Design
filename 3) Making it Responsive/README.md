@@ -42,3 +42,7 @@ You can also define multiple conditions, for example a max and min width of the 
   }
 } 
 ```
+Now the style will apply for screen sizes from 800 to 1024px.
+
+You can also define multiple media queries for a single web page.
+Media queries allow you to define breakpoints when the page layout and style should change, as well as define the corresponding CSS styles for these breakpoints.
