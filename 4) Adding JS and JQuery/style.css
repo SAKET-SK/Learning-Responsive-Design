@@ -168,4 +168,8 @@ footer li a:hover {
         display: block;
         margin: 5px 0;
     }
+    .submenu {
+        width: 100%;
+        position: relative;
+    }
 }  
