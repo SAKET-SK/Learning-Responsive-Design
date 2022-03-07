@@ -33,3 +33,12 @@ You define a media query using the @media rule inside of your existing style she
 ```
 The @media rule is followed by the media type we are targeting (the screen in our case) and sets the condition when the rules apply (max-width:600px in our case).
 So now, the style will apply if the page has a width up to 600px.
+
+You can also define multiple conditions, for example a max and min width of the viewport:
+```
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+   body {
+     background-color: blue;
+  }
+} 
+```
