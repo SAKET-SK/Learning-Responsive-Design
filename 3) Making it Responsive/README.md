@@ -115,4 +115,7 @@ This approach allows elements to be more flexible, which is essential when putti
 
 CSS also allows you to define relative unit sizes for font-sizes:
 The em unit size will be relative to the parent's font-size.
-For example, if our page's body has a font size of 16px, using 1.5em will be equal to 24px (16*1.5):
+For example, if our page's body has a font size of 16px, using 1.5em will be equal to 24px (16*1.5)
+
+This is useful because when you have to change the font-size, you need to change it only on the top parent. All child elements will get the corresponding relative size from it using the em units.
+However, when you define all sizes using em, you would be hit by a cascading effect. In this situation, you have many nested elements which use font-sizes relative to their corresponding parents, which results in hard-to-control unit sizes.
