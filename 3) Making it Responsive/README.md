@@ -104,6 +104,15 @@ To use flexbox, we first define a container and set its display property to flex
 ```
 This will make all child elements have the same width (flex: 1) and fill the entire container width.
 
-The display:block; style makes the list items block level elements so they take the entire width of their container. This makes the items align under each other:
+The display:block; style makes the list items block level elements so they take the entire width of their container. This makes the items align under each other
+
+CSS Units
 
 
+An important part of our layout was not using any fixed units for our widths.
+We used percentage values, which made the elements span relative to the width of their parents.
+This approach allows elements to be more flexible, which is essential when putting together a responsive design.
+
+CSS also allows you to define relative unit sizes for font-sizes:
+The em unit size will be relative to the parent's font-size.
+For example, if our page's body has a font size of 16px, using 1.5em will be equal to 24px (16*1.5):
