@@ -26,3 +26,8 @@ We start by including jQuery in our page:
 We used the script tag to import the jQuery library.
 jQuery is a fast, small, and feature-rich JavaScript library.
 It makes things like HTML document traversal and manipulation, event handling, and animation much simpler.
+
+We need to handle the click event of our button, which should open and close our submenu.
+
+We will use the slideToggle() method, which switches between visible and invisible states of the element selected using a slide animation
+we handled the click event of out .btn, selected the .submenu element and opened/closed it using the slideToggle method, providing 500ms for the animation speed.
