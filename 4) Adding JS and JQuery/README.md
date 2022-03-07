@@ -23,3 +23,6 @@ We start by including jQuery in our page:
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head> 
 ```
+We used the script tag to import the jQuery library.
+jQuery is a fast, small, and feature-rich JavaScript library.
+It makes things like HTML document traversal and manipulation, event handling, and animation much simpler.
