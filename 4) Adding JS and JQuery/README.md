@@ -9,3 +9,17 @@ We also used display: block; for our links, to make them behave as block-level e
 
 We only need to change the width and the position property of the submenu.
 Currently, the submenu is always open. We will add the open/close animation in the next lesson.
+
+Animation
+
+Let's use JavaScript to open/close the submenu when the button is tapped.
+Since we want to open the submenu using a nice sliding animation, we will use the JQuery library, which supports simple animations.
+
+We start by including jQuery in our page:
+```
+<head>
+  <title>App Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head> 
+```
