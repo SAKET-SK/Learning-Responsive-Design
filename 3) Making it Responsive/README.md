@@ -57,3 +57,7 @@ We will create separate styles for our sections when the screen size is lower th
 As you can see, we changed some font-size properties, changed the paddings of the section container, and changed the button's display property to block, making it a block level element which takes the whole width of its container.
 
 Note, that we do not need to redefine the whole style for the elements in the media query. We only need to define the style we want to change.
+
+We changed the width of each feature div to 100% and set the display property to flex which makes the div a flexbox container. This allows us to position the child features horizontally and also set the alignment of its child elements -- the icon and the text -- using the align-items and justify-content properties.
+We also set the width of the icons and defined some margins.
+Now, the features will be aligned next to each other on larger screens and under each other on smaller screens.
