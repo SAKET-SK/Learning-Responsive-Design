@@ -119,3 +119,10 @@ For example, if our page's body has a font size of 16px, using 1.5em will be equ
 
 This is useful because when you have to change the font-size, you need to change it only on the top parent. All child elements will get the corresponding relative size from it using the em units.
 However, when you define all sizes using em, you would be hit by a cascading effect. In this situation, you have many nested elements which use font-sizes relative to their corresponding parents, which results in hard-to-control unit sizes.
+
+rem
+
+Another relative unit is rem. It stands for Root Em, meaning that it only looks at the font-size of the root element, which is the html element.
+This makes it easier to use than em.
+We set the html elements font-size to 16px and used that to set all the other font-sizes using rem.
+You can also use relative CSS units for margins and paddings.
