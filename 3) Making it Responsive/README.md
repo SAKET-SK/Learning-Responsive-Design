@@ -53,3 +53,5 @@ Now, that we know how to define CSS styles for different screen sizes, we can st
 A typical breakpoint for a mobile screen is 480px width.
 We will create separate styles for our sections when the screen size is lower than 480px in width.
 480px is the typical breakpoint for mobile devices.
+
+As you can see, we changed some font-size properties, changed the paddings of the section container, and changed the button's display property to block, making it a block level element which takes the whole width of its container.
