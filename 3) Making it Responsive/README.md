@@ -55,3 +55,5 @@ We will create separate styles for our sections when the screen size is lower th
 480px is the typical breakpoint for mobile devices.
 
 As you can see, we changed some font-size properties, changed the paddings of the section container, and changed the button's display property to block, making it a block level element which takes the whole width of its container.
+
+Note, that we do not need to redefine the whole style for the elements in the media query. We only need to define the style we want to change.
