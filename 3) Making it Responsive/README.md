@@ -61,3 +61,46 @@ Note, that we do not need to redefine the whole style for the elements in the me
 We changed the width of each feature div to 100% and set the display property to flex which makes the div a flexbox container. This allows us to position the child features horizontally and also set the alignment of its child elements -- the icon and the text -- using the align-items and justify-content properties.
 We also set the width of the icons and defined some margins.
 Now, the features will be aligned next to each other on larger screens and under each other on smaller screens.
+
+Flexbox
+
+
+The flexbox layout model allows to create flexible layouts easily, without the need to use CSS positioning and floats.
+
+Let's demonstrate how it works using a simple example:
+```
+<div class="container">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>
+</div> 
+```
+To use flexbox, we first define a container and set its display property to flex.
+```
+.container {
+  display: flex;
+}
+```
+```
+<div class="container">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+</div>
+```
+```
+.container {
+  display: flex;
+  align-items: stretch;
+}
+.container div {
+  background-color: red;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px; 
+  flex: 1;
+}
+```
+This will make all child elements have the same width (flex: 1) and fill the entire container width.
+
