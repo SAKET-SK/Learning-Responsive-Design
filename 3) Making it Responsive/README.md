@@ -46,3 +46,10 @@ Now the style will apply for screen sizes from 800 to 1024px.
 
 You can also define multiple media queries for a single web page.
 Media queries allow you to define breakpoints when the page layout and style should change, as well as define the corresponding CSS styles for these breakpoints.
+
+Responsive Header
+Now, that we know how to define CSS styles for different screen sizes, we can start making our landing page responsive!
+
+A typical breakpoint for a mobile screen is 480px width.
+We will create separate styles for our sections when the screen size is lower than 480px in width.
+480px is the typical breakpoint for mobile devices.
