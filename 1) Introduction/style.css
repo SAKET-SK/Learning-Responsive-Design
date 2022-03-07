@@ -30,3 +30,11 @@ footer {
   text-align: center;
   color: #868686;
 } 
+
+/*We have used padding to give the sections some height.
+Since we provided only two values for the padding, it will set both the top and bottom padding to the provided value. (padding: 40px 0; is the same as padding: 40px 0 40px 0;)
+We have also defined background and text colors for the sections.
+
+We have not given any width to the sections, so they will occupy the entire width available.
+This means that when the screen is resized, the section's width will always remain 100% of the available width.
+Since we are planning to create a responsive page, we do not establish any fixed width values for our sections; rather we make it occupy the entire width of the screen. */
